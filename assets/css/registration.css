@@ -1,0 +1,81 @@
+body{
+     background-image: url("e13.png");
+    background-repeat: no-repeat ;
+    background-size: 100% 700px;
+}
+.simple-form {
+    width: 320px;
+    height: 520px;
+    background: steelblue;
+    color: #fff;
+    top: 50%;
+    left: 56%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+/*#registration {
+    width: 100%;
+    background-color: #051019;
+    opacity: 0.8;
+    padding: 50px 0px;
+
+}*/
+#button{
+    width: 250px;
+    padding: 10px;
+    border-radius: 5px;
+    outline: 0px;
+
+}
+#ph{
+    width:50px;
+    padding: 10px;
+    border-radius: 5px;
+    outline: 0px;
+}
+/*#phone{
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    outline: 0px;
+
+}*/
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+#but{
+    color: white;
+    font-size: 18px;
+}
+#butt {
+    width: 250px;
+    padding: 10px;
+    border-radius: 5px;
+    outline: 0px;
+    background-color: aqua;;
+    border: 2px solid #01010c;
+    color: aliceblue;
+    font-size: 18px;
+}
+/*.simple-form input[type="submit"]:hover{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}*/
+.simple-form input[type="text"],input[type="number"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color:white;
+    font-size: 16px;
+}
